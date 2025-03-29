@@ -1,0 +1,1367 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: '__Hind_5d8172';
+  src: url('../../public/fonts/../../public/fonts/Hind-Medium.eot');
+  src: url('../../public/fonts/../../public/fonts/Hind-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/../../public/fonts/Hind-Medium.woff2') format('woff2'),
+    url('../../public/fonts/../../public/fonts/Hind-Medium.woff') format('woff'),
+    url('../../public/fonts/../../public/fonts/Hind-Medium.ttf') format('truetype'),
+    url('../../public/fonts/../../public/fonts/Hind-Medium.svg#Hind-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '__Hind_5d8172';
+  src: url('../../public/fonts/../../public/fonts/Hind-Bold.eot');
+  src: url('../../public/fonts/Hind-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/Hind-Bold.woff2') format('woff2'),
+    url('../../public/fonts/Hind-Bold.woff') format('woff'),
+    url('../../public/fonts/Hind-Bold.ttf') format('truetype'),
+    url('../../public/fonts/Hind-Bold.svg#Hind-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '__Hind_5d8172';
+  src: url('../../public/fonts/Hind-Light.eot');
+  src: url('../../public/fonts/Hind-Light.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/Hind-Light.woff2') format('woff2'),
+    url('../../public/fonts/Hind-Light.woff') format('woff'),
+    url('../../public/fonts/Hind-Light.ttf') format('truetype'),
+    url('../../public/fonts/Hind-Light.svg#Hind-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '__Hind_5d8172';
+  src: url('../../public/fonts/Hind-SemiBold.eot');
+  src: url('../../public/fonts/Hind-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/Hind-SemiBold.woff2') format('woff2'),
+    url('../../public/fonts/Hind-SemiBold.woff') format('woff'),
+    url('../../public/fonts/Hind-SemiBold.ttf') format('truetype'),
+    url('../../public/fonts/Hind-SemiBold.svg#Hind-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '__Hind_5d8172';
+  src: url('../../public/fonts/Hind-Regular.eot');
+  src: url('../../public/fonts/Hind-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/Hind-Regular.woff2') format('woff2'),
+    url('../../public/fonts/Hind-Regular.woff') format('woff'),
+    url('../../public/fonts/Hind-Regular.ttf') format('truetype'),
+    url('../../public/fonts/Hind-Regular.svg#Hind-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../public/fonts/Poppins-ExtraBold.eot');
+  src: url('../../public/fonts/Poppins-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/Poppins-ExtraBold.woff2') format('woff2'),
+    url('../../public/fonts/Poppins-ExtraBold.woff') format('woff'),
+    url('../../public/fonts/Poppins-ExtraBold.ttf') format('truetype'),
+    url('../../public/fonts/Poppins-ExtraBold.svg#Poppins-ExtraBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../public/fonts/Poppins-ExtraLight.eot');
+  src: url('../../public/fonts/Poppins-ExtraLight.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/Poppins-ExtraLight.woff2') format('woff2'),
+    url('../../public/fonts/Poppins-ExtraLight.woff') format('woff'),
+    url('../../public/fonts/Poppins-ExtraLight.ttf') format('truetype'),
+    url('../../public/fonts/Poppins-ExtraLight.svg#Poppins-ExtraLight') format('svg');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../public/fonts/Poppins-Bold.eot');
+  src: url('../../public/fonts/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/Poppins-Bold.woff2') format('woff2'),
+    url('../../public/fonts/Poppins-Bold.woff') format('woff'),
+    url('../../public/fonts/Poppins-Bold.ttf') format('truetype'),
+    url('../../public/fonts/Poppins-Bold.svg#Poppins-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../public/fonts/Poppins-Regular.eot');
+  src: url('../../public/fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/Poppins-Regular.woff2') format('woff2'),
+    url('../../public/fonts/Poppins-Regular.woff') format('woff'),
+    url('../../public/fonts/Poppins-Regular.ttf') format('truetype'),
+    url('../../public/fonts/Poppins-Regular.svg#Poppins-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../public/fonts/Poppins-SemiBold.eot');
+  src: url('../../public/fonts/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/Poppins-SemiBold.woff2') format('woff2'),
+    url('../../public/fonts/Poppins-SemiBold.woff') format('woff'),
+    url('../../public/fonts/Poppins-SemiBold.ttf') format('truetype'),
+    url('../../public/fonts/Poppins-SemiBold.svg#Poppins-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../public/fonts/Poppins-Thin.eot');
+  src: url('../../public/fonts/Poppins-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/Poppins-Thin.woff2') format('woff2'),
+    url('../../public/fonts/Poppins-Thin.woff') format('woff'),
+    url('../../public/fonts/Poppins-Thin.ttf') format('truetype'),
+    url('../../public/fonts/Poppins-Thin.svg#Poppins-Thin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../public/fonts/Poppins-Light.eot');
+  src: url('../../public/fonts/Poppins-Light.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/Poppins-Light.woff2') format('woff2'),
+    url('../../public/fonts/Poppins-Light.woff') format('woff'),
+    url('../../public/fonts/Poppins-Light.ttf') format('truetype'),
+    url('../../public/fonts/Poppins-Light.svg#Poppins-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../public/fonts/Poppins-Medium.eot');
+  src: url('../../public/fonts/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/Poppins-Medium.woff2') format('woff2'),
+    url('../../public/fonts/Poppins-Medium.woff') format('woff'),
+    url('../../public/fonts/Poppins-Medium.ttf') format('truetype'),
+    url('../../public/fonts/Poppins-Medium.svg#Poppins-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --font-poppins:'Poppins';
+  --font-hind:'__Hind_5d8172';
+}
+
+@layer base {
+  html {
+    font-family: var(--font-poppins);
+    font-weight: 500;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-hind);
+    font-family: "__Hind_5d8172";
+    font-weight: 700;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: #101010;
+  font-family: var(--font-poppins);
+  font-family: "Poppins";
+}
+
+.font-sans {
+  font-family: var(--font-poppins);
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: clip;
+}
+
+.form-conditions-text {
+  padding-bottom: 21px;
+}
+
+.form-conditions-text {
+  p {
+      font-size: 17px !important;
+      line-height: 25px;
+  }
+}
+
+.text-link {
+  color: #262626;
+}
+
+.text-link:hover {
+  color: #EA753B;
+  text-decoration: underline;
+}
+
+.dialog-wrap:focus-visible {
+  outline: none;
+}
+
+.dialog-wrap .dialog-header {
+  padding: 24px;
+}
+
+.dialog-wrap .dialog-header h5 {
+  color: #232323;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.dialog-wrap .dialog-header .close-icon {
+  cursor: pointer;
+  color: #000;
+}
+
+.dialog-body {
+
+  color: #fff;
+  padding: 16px 24px;
+  border-radius: 15px;
+  max-height: 70vh;
+  overflow: auto;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 19.6px rgba(0, 0, 0, 0.25);
+  border-radius: 13px;
+}
+
+.preferences-body {
+  display: flex;
+  position: relative;
+  display: grid;
+  gap: 24px 16px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.preferences-body.tabla-body {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.preferences-body.tabla-body::after {
+  display: none !important;
+}
+
+.preferences-body .preferences-content {
+  padding: 0 0px 16px 0px;
+  margin-top: 0px;
+}
+
+.preferences-body:after {
+  content: '';
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1px;
+  height: calc(100% - 16px);
+  background: #E9E9E9;
+}
+
+.preferences-body .custom-radio label {
+  display: inline-block;
+  width: 100%;
+  height: 25px;
+  padding: 34px 15px;
+  transition: 0.3s;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 8.01px;
+  line-height: 12.02px;
+  font-size: 14px;
+  line-height: 20px;
+  position: relative;
+  cursor: pointer;
+  background: #fff;
+  color: #000000;
+  border: 1px solid #9F9F9F;
+}
+
+.preferences-body .custom-radio label:hover {
+  background-color: #FFBA22;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.preferences-body .custom-radio label::after {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  width: calc(100% + 16px);
+  height: calc(100% + 16px);
+  pointer-events: none;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.preferences-body .custom-radio input[type="radio"] {
+  display: none;
+}
+
+.preferences-body .custom-radio input[type="radio"]:checked+label {
+  /* background: #FFBA22;
+  border-color: #FFBA22 !important;
+  color:#fff; */
+}
+
+.preferences-body .custom-radio input[type="radio"]:checked+label::after {}
+
+.preferences-body .preferences-content-list {
+  display: grid;
+  gap: 24px 16px;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  max-width: 160px;
+  margin: 16px auto 0;
+}
+
+.courseList .courseCardList li img {
+  width: 14px !important;
+  height: 21px !important;
+  margin-top: 3px;
+}
+
+.preferences-body.tabla-body .preferences-content-list {
+  width: 100%;
+  grid-template-columns: 1fr;
+}
+
+.section-container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.level-cards-content .text-base {
+  font-family: var(--font-poppins) !important;
+  font-size: 16.11px;
+  line-height: 22.56px;
+  min-height: 42px;
+}
+
+ul.secondaryButton {
+  margin-top: 32px;
+}
+
+.level-cards-content .courseCard .text-base {
+  min-height: auto;
+}
+
+.level-cards-content .courseCard .p-6 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.level-cards-content .text-base span.font-medium {
+  color: #7D7D7D;
+  font-size: 12.51px;
+  font-weight: 500;
+  line-height: 17.52px;
+}
+
+.iconWraper .icon {
+  width: 63.5px;
+  height: 64.85px;
+}
+
+.home-page-content .homeBanner .banner-top-content h1 {
+  font-size: 50.97px;
+  font-weight: 700;
+  line-height: 45.87px;
+}
+
+.home-page-content .main-home.homeBanner .banner-top-content h1 {
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: left;
+  transform: translateX(-15px);
+}
+
+.section-container-fluid {
+  max-width: 1550px;
+  margin: 0 auto;
+}
+
+.main-section-head {
+  font-size: 38px;
+  line-height: 77.44px;
+  text-transform: uppercase;
+  z-index: 2;
+  position: relative;
+}
+
+.banner-top-content {
+  padding-top: 80px;
+}
+
+.main-section-head.capitalize {
+  text-transform: capitalize;
+}
+
+.number-count-content {
+  box-shadow: 0px 11.23px 11.23px 0px rgba(0, 0, 0, 0.25);
+}
+
+.count-content .btn-align-view .primeryButton {
+  margin-top: 0 !important;
+}
+
+.section-spacing {
+  padding: 60px 0 !important;
+}
+
+.primeryButton {
+  background: linear-gradient(180deg, #FF9B50 0%, #EA753B 100%);
+  color: #fff;
+}
+
+.primeryButton:hover {
+  background: linear-gradient(-92.61deg, #ff9b50 0, #ea753b 100%);
+}
+
+.secondaryButton {
+  background: #535353;
+}
+
+.redButton {
+  background: linear-gradient(92.61deg, rgba(239, 220, 49, 0.99) -42.5%, rgba(239, 114, 71, 0.996226) -16.24%, #EF3154 51.84%);
+}
+
+.header {
+  z-index: 10;
+  background: linear-gradient(180deg, #000 0, rgba(0, 0, 0, .4962359943977591) 50%, rgba(0, 0, 0, 0) 100%);
+}
+
+.dropdownBg {
+  background: #262626;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, .5);
+}
+
+.orangeText {
+  color:  #d35902;
+}
+
+.text-44 {
+  font-size: 2.75rem;
+}
+
+.text-60 {
+  font-size: 3.75rem;
+}
+
+.align-baseline {
+  align-items: baseline;
+}
+
+/* Registration page */
+
+.regisWrap::after {
+  content: '';
+  width: 326px;
+  height: 326px;
+  position: absolute;
+  left: 50%;
+  bottom: -60px;
+  transform: translate(-50%, 0);
+  z-index: -1;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+/* Confirmation page */
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.player {
+  border-radius: 30px;
+}
+
+.courseCard .btn-align-view button {
+  margin-bottom: 30px;
+}
+
+.level-cards-content .btn-align-view button {
+  margin-bottom: 20px !important;
+}
+
+.feature-content img.mx-auto {
+  margin-top: 55px !important;
+}
+
+.accordion-panal .w-full button {
+  margin-bottom: 0 !important;
+}
+
+.home-page-content .refund-c,
+.kathak-adults-vocals-content .refund-c {
+  border: 3px solid #3B3B3B;
+  border-width: 3px 0;
+}
+
+.refund-c .primeryButton {
+  margin-top: 0 !important;
+}
+
+.kathak-adults-vocals-content .About-desc-mobile-view {
+  padding: 0 0 60px 0 !important;
+}
+
+.kid-feature-content .btn-align-view button.mt-16 {
+  margin-top: 60px !important;
+}
+
+.courseCard .btn-align-view button.primeryButton {
+  margin-top: 18px !important;
+}
+
+.checkout-content .checkout-wrap .proceed-btn .btn-align-view button {
+  margin-bottom: 80px !important;
+}
+
+.homeBanner .banner-top-content h1 {
+  text-transform: uppercase !important;
+}
+
+.leading-4 {
+  line-height: 1.6rem;
+}
+
+.main-h .homeBanner .banner-top-content h1 {
+  text-transform: inherit !important;
+}
+
+.homeBanner.main-home::after {
+  display: none !important;
+}
+
+.adults-course-page.home-page-content .homeBanner {
+  position: relative;
+  padding-bottom: 18px;
+}
+
+.adults-course-page.home-page-content .homeBanner:before {
+  background: radial-gradient(81.94% 81.94% at 59.92% 95.71%, rgb(251 176 59 / 27%) 0%, #000000 100%);
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.main-h.home-page-content .homeBanner .row {
+  background: radial-gradient(81.94% 81.94% at 59.92% 95.71%, rgb(251 176 59 / 27%) 0%, #000000 100%);
+}
+
+.adults-course-page.home-page-content .homeBanner .row {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: calc(100% + 100px);
+  height: 520px;
+  position: relative;
+  z-index: 1;
+  max-height: 70vh;
+  min-height: 350px;
+}
+
+.homeBanner .banner-top-content .quote-port-mobile-text {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 33px;
+}
+
+.kathak-adults-vocals-content .homeBanner .quote-port-mobile-text {
+  max-width: 570px !important;
+}
+
+.banner-top-content .text-left .btn-align-view button {
+  margin-bottom: 32px !important;
+}
+
+.chat-bottom-text .whatsappBtn {
+  padding-left: 0;
+}
+
+.thank-you-whatsapp .contactSection {
+  background-color: #fff !important;
+  border-top: 1px solid #7D7D7D;
+}
+
+.thank-you-whatsapp .contactSection .chat-bottom-text button.whatsappBtn {
+  border-radius: 30px;
+  background: #518134;
+  border: none;
+}
+
+.home-page-content.main-h .contactSection {
+  background-color: #fff;
+  border-bottom: 1px solid #B9B9B9;
+}
+
+.home-page-content.main-h .contactSection:after {
+  display: none;
+}
+
+.home-page-content.main-h .chat-bottom-text .whatsappBtn {
+  background: #518134;
+}
+
+.iconWraper {
+  padding: 15px;
+}
+
+.header.header-with-only-logo {
+  height: 75px;
+}
+
+.header.header-with-only-logo .logo-content a {
+  width: auto;
+}
+
+.header.header-with-only-logo .relative.inline-block.text-left.ml-6,
+.header.header-with-only-logo .hidden {
+  display: none;
+}
+
+.refund-view-content .btn-align-view {
+  width: auto;
+}
+
+.text-break {
+  display: block;
+}
+
+.about-content-text p {
+  margin-bottom: 16px !important;
+  margin-top: 16px !important;
+}
+
+.home-page-content .artfi-txt img.mx-auto {
+  display: none;
+}
+
+.kathak-adults-vocals-content .bottom-bar .btn-align-view button {
+  margin-top: 0 !important;
+}
+
+.session-content {
+  position: relative;
+}
+
+/* .download-content.picker-active-wrap+.session-content::after */
+.backdrop-blur-sm {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  left: 0;
+  z-index: 0;
+  top: 0;
+  /* backdrop-filter: blur(1px);
+  background: #E9E9E9AB; */
+  transition: .5s;
+  background: rgba(255, 255, 255, 0.87);
+}
+
+.banner-top-content .text-left .btn-align-view button p {
+  margin-right: 24px !important;
+}
+
+.dialog-wrap .dialog-header .close-icon {
+  font-size: 18px;
+}
+
+/* @media (max-width:1260px) and (min-width:1198px) {
+  .section-container {
+    padding: 0 100px;
+  }
+} */
+
+@media (min-width:1200px) and (max-width:1400px) {
+  .home-page-content .homeBanner .banner-top-content h1 {
+    font-size: 22.97px !important;
+    line-height: 42.87px !important;
+  }
+
+  .adults-course-page.home-page-content .homeBanner .banner-top-content h1 {
+    font-size: 38.97px !important;
+  }
+
+  .home-page-content .main-home.homeBanner .banner-top-content h1 {
+    font-size: 60px !important;
+    line-height: 62.7px !important;
+  }
+
+  .homeBanner .banner-top-content .quote-port-mobile-text {
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    line-height: 28px !important;
+  }
+}
+
+@media (max-width:1260px) and (min-width:992px) {
+  .card-content div h3 {
+    font-size: 20px !important;
+    line-height: 26px !important;
+  }
+
+  .card-content div img {
+    width: 300px !important;
+    height: 180px !important;
+  }
+}
+
+@media(min-width:960px) {
+  .d-none-md-960 {
+    display: none;
+  }
+}
+
+@media(min-width:992px) {
+  .banner-top-content .btn-align-view {
+    justify-content: inherit;
+  }
+
+  .d-none-md-up {
+    display: none !important;
+  }
+
+  .artfi-txt img.mx-auto {
+    display: none;
+  }
+}
+
+@media(min-width:768px) {
+  .d-none-sm-up {
+    display: none !important;
+  }
+}
+@media (min-width:1201px) and (max-width:1320px) {
+  .sessionPrice .text-4xl, .sessionNo .text-4xl {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+}
+@media(max-width:1200px) {
+  .kathak-adults-vocals-content .homeBanner .quote-port-mobile-text {
+    max-width: 470px !important;
+  }
+
+  .adults-course-page.home-page-content .homeBanner .row {
+    height: auto;
+    max-height: 350px;
+  }
+
+  .home-page-content .homeBanner .banner-top-content h1 {
+    font-size: 21px;
+    line-height: 30.2px;
+  }
+
+  .adults-course-page.home-page-content .homeBanner .banner-top-content h1 {
+    font-size: 36px;
+    line-height: 30.2px;
+  }
+
+  .homeBanner .banner-top-content .quote-port-mobile-text {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+  }
+
+  .sessionPrice .text-4xl,
+  .sessionNo .text-4xl {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+
+  .level-cards-content .text-base {
+    font-size: 15.11px;
+    line-height: 15.56px;
+  }
+
+  .sessionPrice .text-lg {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+}
+
+@media(max-width:992px) {
+  .adults-course-page.home-page-content .homeBanner .row {
+    background: none;
+    min-height: 350px;
+    height: auto;
+  }
+}
+
+@media(max-width:991px) {
+  .banner-top-content .text-left .btn-align-view button p {
+    margin-right: 16px !important;
+  }
+
+  .adults-course-page.home-page-content .homeBanner .row {
+    min-height: auto;
+    max-height: max-content;
+  }
+
+  .kathak-adults-vocals-content .kathak-desc .count-content {
+    padding-top: 0 !important;
+  }
+
+  .home-page-content .kathak-desc {
+    padding-top: 0 !important;
+    border: none;
+  }
+
+  .kathak-adults-vocals-content .padding-set.feature-content .btn-align-view,
+  .home-page-content .padding-set.feature-content .btn-align-view {
+    display: block !important;
+  }
+
+  .kathak-adults-vocals-content .kid-feature-content .btn-align-view button.mt-16 {
+    margin-top: 24px !important;
+  }
+
+  .home-page-content .kid-feature-content .btn-align-view button.mt-16 {
+    margin-top: 0 !important;
+  }
+
+  .kathak-adults-vocals-content .homeBanner .quote-port-mobile-text {
+    max-width: 760px !important;
+    margin: 16px auto 0 auto;
+  }
+
+  .main-h .homeBanner .banner-top-content h1 {
+    text-transform: inherit !important;
+    text-align: center !important;
+  }
+
+  .read-more-btn {
+    font-size: 16px;
+  }
+
+  .iconWraper {
+    padding: 0;
+  }
+
+  .artfi-txt .orangeText {
+    font-size: 24px !important;
+  }
+
+  .online-platform-kids .join-platform-content .btn-align-view {
+    display: none !important;
+  }
+
+  .refund-view-content .flex-set-mobile-view p,
+  .refund-c .flex-set-mobile-view p {
+    font-size: 14px !important;
+    line-height: 16.76px !important;
+  }
+
+  .refund-view-content,
+  .refund-c {
+    padding: 8px 0 !important;
+  }
+
+  .level-cards-content .text-base.bg-clip-border.overflow-hidden.shadow-none {
+    min-height: 26px !important;
+    line-height: 26px !important;
+    font-size: 15px !important;
+    margin-bottom: 30px;
+  }
+
+  .homeBanner h1 {
+    font-size: 22px !important;
+    line-height: 1.2 !important;
+  }
+
+  .homeBanner .quote-port-mobile-text {
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .home-page-content .mentor-mobile-view {
+    margin: 0 12px;
+    border-radius: 15px;
+  }
+
+  .checkout-content .checkout-wrap .proceed-btn .btn-align-view button {
+    margin-bottom: 32px !important;
+  }
+
+  .courseCard .btn-align-view button.primeryButton {
+    margin-top: 16px !important;
+  }
+
+  .kathak-adults-vocals-content .About-desc-mobile-view {
+    padding: 0 0 50px 0 !important;
+  }
+
+  .refund-c .primeryButton {
+    display: none !important;
+  }
+
+  .level-cards-content .btn-align-view button {
+    margin-bottom: 24px !important;
+  }
+
+  .About-desc-mobile-view .text-center.mt-10 {
+    margin-top: 0 !important;
+  }
+
+  .home-page-content .About-desc-mobile-view .text-center.mt-10,
+  .kathak-adults-vocals-content .About-desc-mobile-view .text-center.mt-10 {
+    margin-top: 2.5rem !important;
+  }
+
+  .testimonial-align-view img.mx-auto {
+    display: none;
+  }
+
+  .flex-set-mobile-view h1 {
+    font-size: 24px !important;
+    line-height: 24.64px !important;
+  }
+
+  .level-cards-content .courseCard:last-child {
+    margin-bottom: 0 !important;
+  }
+
+  .level-cards-content .courseCard .btn-align-view button {
+    justify-content: center;
+  }
+
+  .level-cards-content .courseCard .btn-align-view {
+    display: flex !important;
+  }
+
+  .level-cards-content ul.secondaryButton {
+    margin-top: 0;
+  }
+
+  .level-cards-content .width-adjest-mobile-view {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .card-d.mb-14 {
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .d-none-md-down {
+    display: none !important;
+  }
+
+  .section-container {
+    padding: 0 24px;
+  }
+
+  .main-section-head {
+    font-size: 32px;
+    line-height: 57.44px;
+  }
+
+  .section-spacing {
+    padding: 50px 0 !important;
+  }
+
+  .count-content-wrap.count-content {
+    display: flex !important;
+    flex-wrap: wrap;
+    align-items: start;
+  }
+
+  .count-content-wrap.count-content .btn-align-view .primeryButton {
+    height: 49px;
+  }
+}
+
+@media (max-width:991px) and (min-width:768px) {
+  .main-home.homeBanner h1 {
+    font-size: 38.97px !important;
+    line-height: 42.87px !important;
+  }
+}
+
+@media(max-width:767px) {
+  .home-page-content .kid-feature-content {
+    padding-top: 40px !important;
+  }
+  .courseCard .btn-align-view button.primeryButton {
+    margin-bottom: 23px !important;
+}
+  .checkout-content .checkout-wrap .proceed-btn .btn-align-view button {
+      margin-bottom:10px !important;
+    }
+  .preferences-body .preferences-content-list {
+    max-width: 100%;
+  }
+
+  .preferences-body .custom-radio label {
+    font-size: 12px;
+    padding: 24px 15px;
+    border-radius:7px;
+  }
+
+  .dialog-wrap .dialog-header .close-icon {
+    font-size: 16px;
+  }
+
+  .dialog-wrap .dialog-header,
+  .dialog-body {
+    padding: 16px;
+  }
+
+  .dialog-wrap .dialog-header img {
+    width: 16px;
+  }
+
+  .dialog-wrap .dialog-header h5 {
+    font-size: 16px;
+    line-height: 20.03px;
+  }
+
+  .text-link {
+    font-size: 14px;
+  }
+
+  .d-none-sm-down {
+    display: none !important;
+  }
+
+  .banner-top-content .price-btn-adjested {
+    font-size: 14px !important;
+    font-weight: 600;
+  }
+
+  .text-break {
+    display: inline;
+  }
+
+  .banner-top-content .mobile-view-center-text {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+    text-align: center !important;
+    margin-top: 40px;
+    padding-bottom: 20px;
+  }
+
+  .kathak-adults-vocals-content .About-desc-mobile-view {
+    padding: 0 24px 0 !important;
+  }
+
+  .learn-text h2 {
+    font-size: 21px !important;
+  }
+
+  .feature-content img.mx-auto {
+    margin-top: 16px !important;
+  }
+
+  .text-mid-mobile-view .iconList li::before,
+  .text-mid-mobile-view .iconList li::after {
+    background-size: contain !important;
+    width: 17px !important;
+    height: 17px !important;
+    top: 0 !important;
+  }
+
+  .mentor-col-container .text-mid-mobile-view p {
+    font-size: 13px !important;
+    line-height: 18.5px !important;
+  }
+
+  .flex-set-mobile-view img {
+    width: 38px;
+    margin-left: 16px;
+    margin-right: 0;
+  }
+
+  .flex-set-mobile-view h1 {
+    font-size: 18px !important;
+    line-height: 17.64px !important;
+  }
+
+  .flex-set-mobile-view {
+    flex-direction: row-reverse !important;
+    justify-content: space-between;
+  }
+
+  .level-cards-content .text-base,
+  .level-cards-content .text-base span.font-medium {
+    font-size: 11.91px !important;
+    line-height: 17.01px !important;
+    padding: 0 !important;
+  }
+
+  .section-spacing {
+    padding: 24px 0 !important;
+  }
+
+  .text-level-mobile-view h1 {
+    text-align: center !important;
+  }
+
+  .banner-top-content .text-left .btn-align-view button {
+    border-radius: 4.3px;
+    margin-bottom: 18px !important;
+    padding: 7px 18px;
+  }
+}
+
+@media(max-width:575px) {
+
+  .count-content-wrap.count-content .show-counter {
+    margin-right: 0 !important;
+  }
+
+  .count-content-wrap.count-content-wrap {
+    padding-top: 24px !important;
+    padding-bottom: 12px !important;
+    gap: 12px;
+  }
+
+  .count-content-wrap.count-content .btn-align-view .primeryButton {
+    font-weight: 400;
+    border-radius: 5px;
+    height: 32px;
+    padding: 6px 15px !important;
+    line-height: 32px;
+  }
+
+  .count-content-wrap.count-content .btn-align-view .primeryButton p {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    margin-right: 0.6rem;
+    width: 98px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .count-content-wrap.count-content .btn-align-view .primeryButton:after {
+    width: 6px !important;
+    height: 16px !important;
+  }
+
+  .header.header-with-only-logo .mx-auto {
+    padding: 16px 24px 8px !important;
+  }
+
+  .header.header.header-with-only-logo .logo-align-port {
+    top: 16px;
+  }
+
+  .header.header.header-with-only-logo .logo-content a {
+    width: 88px;
+  }
+
+  .header.header-with-only-logo {
+    height: 56px;
+  }
+
+  .confimWrap,
+  .confirmation-content {
+    margin-top: 56px !important;
+  }
+
+  .course-high-content .text-5xl {
+    font-size: 20px !important;
+    line-height: 24.02px !important;
+  }
+
+  .home-page-content .banner-top-content .btn-align-view button {
+    margin-top: 16px !important;
+  }
+
+  .homeBanner .banner-top-content .quote-port-mobile-text {
+    font-size: 12px;
+    line-height: 15.3px;
+  }
+
+  .learn-text .pt-5 {
+    padding: 5px !important;
+  }
+
+  .main-section-head {
+    font-size: 20px;
+    line-height: 32.02px;
+  }
+
+  .regisWrap::after {
+    width: 123px;
+    height: 123px;
+    bottom: -30px;
+    background-size: 100%;
+  }
+}
+
+@media(max-width:540px) {
+
+  .dialog-wrap .dialog-header,
+  .dialog-body {
+    padding: 13px 16px;
+  }
+
+  .preferences-body .preferences-content-list {
+    max-width: 100px;
+  }
+
+  .dialog-body {
+    padding: 0 8px 16px;
+  }
+
+  .dialog-wrap .dialog-header .close-icon {
+    font-size: 16px;
+  }
+
+}
+
+@media(max-width:375px) {
+  .learn-text h2 {
+    font-size: 16px !important;
+  }
+}
+
+@media (min-width:1700px) {
+  .kathak-adults-vocals-content .homeBanner .quote-port-mobile-text {
+    max-width: 770px !important;
+  }
+
+  .adults-course-page.home-page-content .homeBanner .banner-top-content h1 {
+    font-size: 56.97px;
+    line-height: 55.87px;
+  }
+
+  .adults-course-page.home-page-content .homeBanner .row {
+    max-height: 720px;
+    height: 70vh;
+  }
+
+  .home-page-content .main-home.homeBanner .banner-top-content h1 {
+    font-size: 75px;
+    line-height: 80.7px;
+    width: 590px;
+  }
+
+  .kathak-kids-content .homeBanner .banner-top-content h1 {
+    font-size: 56px;
+    line-height: 62.2px;
+  }
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+
+.back {
+  background: #fff;
+  display: flex;
+  padding-top: 30px;
+}
+
+.not-found {
+  max-width: 500px;
+  margin: 50px auto 100px !important;
+  font-size: 18px;
+  color: #000;
+  font-weight: 500;
+  text-align: center;
+}
+
+.not-found .page-header {
+  margin: 0 0 20px;
+}
+
+.not-found .page-title {
+  color: #ff7f1f;
+  font-size: 70px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.not-found h3 {
+  font-weight: 600;
+  font-size: 25px;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.not-found p {
+  font-size: 14px;
+  padding: 0 15px;
+}
+
+.back-to-home-button {
+  background: #f71;
+  color: #ffff;
+  padding: 13px 40px;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 20px 0 0;
+}
+
+.back-to-home-button:hover{
+  background: #000;
+}
